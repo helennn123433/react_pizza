@@ -1,7 +1,10 @@
-import styles from './NotFoundInfo.module.scss'
+import styles from "./NotFoundInfo.module.scss";
 
 export default function NotFoundInfo() {
-    return (
-        <h1 className={styles.root}>Ничего не найдено :(</h1>
-    )
+  return (
+    <div className={styles.root}>
+      <h1>Ничего не найдено :(</h1>
+      <p className={styles.description}> К сожалению данные отсутствуют</p>
+    </div>
+  );
 }
